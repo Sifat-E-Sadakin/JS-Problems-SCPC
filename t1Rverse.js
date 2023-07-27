@@ -15,9 +15,11 @@ let reverse = msg => {
         result = result + iterator;
 
     }
-    console.log(result);
+    return result;
 
 
 }
 
-reverse(str)
+
+let result = reverse(str)
+console.log(result);
